@@ -1,0 +1,108 @@
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%) inset, 0 1px 0 #fff;
+    color: #3e3e3e;
+    justify-content: space-evenly;
+}
+
+.container{
+    margin:0px auto;
+    max-width:800px;
+}
+.table table{
+    padding: 0px;
+    table-layout: fixed;
+    margin:0px 5px;
+}
+.table table td.strike{
+    text-decoration:line-through;
+    background:#cfcfcf;
+    color:#000
+}
+table.bingo td{
+    border-radius: 10px;
+}
+.table table td{
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #343434;
+    color: #ebebeb;
+    border-radius: 1px;
+    font-size: 20px;
+    min-width: 25px;
+}
+table.bingo td{
+    border-radius: 10px;
+}
+table.red td{
+    background: #ab1d1d;
+}
+table.blue td{
+    background: #1c0769;
+}
+table.orange td{
+    background: #be6711;
+}
+table.green td{
+    background: #01603b;
+}
+.generator{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.generator a{
+    padding: 10px 25px;
+    border-radius: 35px;
+    box-shadow: 0px 5px 10px 2px #c4c4c4;
+    color: #FFF;
+    font-size: 21px;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #ddd;
+    background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
+}
+.generator a:hover{
+    background-image: linear-gradient( 109.6deg,  rgb(48, 67, 117) 11.2%, rgb(81, 102, 197) 91.2% );
+}
+#bingoNumber{
+    display: flex;
+    margin: 32px auto;
+    font-size: 40px;
+    color: #343434;
+    background-image: radial-gradient( circle 827px at 47.3% 48%,  rgba(255,255,255,1) 0%, rgba(138,192,216,1) 90% );
+    max-width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: inset 0px 0px 7px 0px #a4a4a4;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+.bingo-display {
+    display: flex;
+    justify-content: space-around;
+}
+.bingo-display div{
+    font-size: 20px;
+    padding: 5px 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    letter-spacing: 8px;
+    color: #DDD;
+    font-weight: 600;
+}
+.bingo-display div .enable{
+    color: #343434
+}

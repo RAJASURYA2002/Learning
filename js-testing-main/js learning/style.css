@@ -1,0 +1,8 @@
+body{
+    background-color: wheat;
+}
+.l_1,.l_2,.l_3{
+    width: 700px;
+    height: 100px;
+    border: 5px solid;
+}
